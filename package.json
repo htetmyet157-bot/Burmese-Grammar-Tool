@@ -1,0 +1,23 @@
+{
+  "name": "burmese-grammar-tool",
+  "version": "1.0.0",
+  "type": "module",
+
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo \"Build Complete\"",
+    "prod": "node index.js"
+  },
+
+  "dependencies": {
+    "axios": "^1.7.1",
+    "better-sqlite3": "^12.6.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.0.0",
+    "express-session": "^1.18.2",
+    "fs-extra": "^11.3.3",
+    "mammoth": "^1.11.0",
+    "multer": "^2.0.2"
+  }
+}

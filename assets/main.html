@@ -1,0 +1,70 @@
+<!DOCTYPE html><html lang=en><link rel=stylesheet href=main.1a8c40be.css><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1"><title>Spelling &amp; Grammar Checker</title><body>
+  <div class=site id=web-app>
+    <header id=masthed class="fixed-top site-header sticky-header">
+      <nav class=navbar-expand>
+        <div class=site-logo>
+          <a class=navbrand href=main.html>
+            <img src=logo.d4f269be.svg class=logo alt=GrammarChecker>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container-xxl my-5">
+      <div class="justify-content-center row">
+        <form id=editorForm class="position-relative wrapper">
+          <input type=file name=fileUpload id=fileInput class=d-none>
+        <textarea name=textContent id=textarea placeholder="Enter your text or Drop File..." class=form-control></textarea>    </form>
+
+      <div class="align-items-center d-flex flex-wrap mt-3 toolbar">
+            <div id=dropOverlay class="align-items-center bg-light bg-opacity-75 d-flex d-none h-100 justify-content-center position-absolute start-0 top-0 w-100">
+          <i class="bi bi-file-earmark-arrow-up display-1"></i>
+
+     
+        <div class="alert alert-primary hover-alert mb-2 text-center w-100" role=alert>
+          Drag &amp; Drop your file here
+        </div>
+       
+               <div class="d-none mt-2 progress w-100" id=fileProgress>
+          <div class=progress-bar role=progressbar style=width:0%></div>
+          </div>
+      </div> 
+<div class=btn-group>
+  
+  <button type=button id=pasteBtn class="btn btn-outline-secondary" title=Paste>
+    <i class="bi bi-clipboard2-fill me-1"></i> Paste
+  </button>
+  <button type=button id=clearBtn class="btn btn-outline-secondary" title=Paste>
+ <i class="bi bi-eraser">Clear</i>
+  </button>
+
+
+  
+ <button type=button id=uploadBtn class="btn btn-primary" title=Upload>
+    <i class="bi bi-upload me-1"></i> Upload
+  </button>
+  
+  <button type=button id=cleanBtn class="btn btn-warning" title="Save Text">
+    <i class="bi bi-file-earmark-text me-1"></i>fromat
+  </button>
+  
+  <button type=button id=checkBtn class="btn btn-success" title=Check>
+    <i class="bi bi-check2-circle me-1"></i> Check
+  </button>
+</div> </div>
+  </div>
+
+  <footer class=container-xxl>
+    <div class=copy-right>
+      <p>
+        Burmese GrammarChecker tool © 2026
+      </p>
+    </div>
+  </footer>
+</div>
+
+
+<script type=module src=main.968e7f07.js></script>
+
+
+</div>
